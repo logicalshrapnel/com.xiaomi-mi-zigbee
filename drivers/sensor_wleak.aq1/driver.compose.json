@@ -1,0 +1,47 @@
+{
+	"id": "sensor_wleak.aq1",
+	"name": {
+		"en": "Aqara Water sensor",
+		"nl": "Aqara Water sensor"
+	},
+	"class": "sensor",
+	"capabilities": [
+		"alarm_water",
+		"alarm_battery",
+		"measure_battery"
+	],
+	"energy": {
+    "batteries": [
+      "CR2032"
+    ]
+  },
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": "lumi.sensor_wleak.aq1",
+		"endpoints": {
+			"1": {
+			 "clusters": [
+				 0,
+				 1,
+				 1280
+			 ],
+			 "bindings": [
+				 1280
+			 ]
+		 }
+	 },
+		"learnmode": {
+			"image": "{{driverAssetsPath}}/learn.svg",
+			"instruction": {
+				"en": "Pinch the sensor for 5 seconds until the blue light flashes continuously",
+				"nl": "Pinch the sensor for 5 seconds until the blue light flashes continuously"
+			}
+		}
+	},
+	"images": {
+		"large": "{{driverAssetsPath}}/images/large.png",
+		"small": "{{driverAssetsPath}}/images/small.png"
+	},
+	"settings": [
+	]
+}

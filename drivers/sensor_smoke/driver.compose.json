@@ -1,0 +1,46 @@
+{
+	"id": "sensor_smoke",
+	"name": {
+		"en": "Xiaomi Honeywell smoke detector"
+	},
+	"class": "sensor",
+	"capabilities": [
+		"alarm_smoke",
+		"alarm_battery",
+		"measure_battery"
+	],
+	"energy": {
+    "batteries": [
+      "CR123A"
+    ]
+  },
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": "lumi.sensor_smoke",
+		"endpoints": {
+			"1": {
+			 "clusters": [
+				 0,
+				 1,
+				 1280
+			 ],
+			 "bindings": [
+				 1280
+			 ]
+		 }
+	 },
+		"learnmode": {
+			"image": "{{driverAssetsPath}}/learn.svg",
+			"instruction": {
+				"en": "Pinch the sensor for 5 seconds until the blue light flashes continuously",
+				"nl": "Pinch the sensor for 5 seconds until the blue light flashes continuously"
+			}
+		}
+	},
+	"images": {
+		"large": "{{driverAssetsPath}}/images/large.png",
+		"small": "{{driverAssetsPath}}/images/small.png"
+	},
+	"settings": [
+	]
+}

@@ -1,7 +1,7 @@
 {
   "type": "enum",
   "uiComponent": "sensor",
-  "icon": "/drivers/cube/assets/icon.svg",
+  "icon": "/assets/capabilities/cube_icon.svg",
   "title": {
     "en": "Motion",
     "nl": "Beweging"

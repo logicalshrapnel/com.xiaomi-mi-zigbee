@@ -1,0 +1,24 @@
+{
+  "type": "boolean",
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/alarm_gas.svg",
+  "title": {
+    "en": "Gas Alarm",
+    "nl": "Gas salarm"
+  },
+  "desc": {
+    "en": "True when gas has been detected",
+    "nl": "Gaat af als er gas gedetecteerd wordt"
+  },
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Gas alarm turned on",
+    "nl": "Gas alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Gas alarm turned off",
+    "nl": "Gas alarm ging uit"
+  }
+}
